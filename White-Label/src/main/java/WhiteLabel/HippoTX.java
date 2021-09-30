@@ -28,7 +28,7 @@ System.setProperty("webdriver.chrome.driver", "C:/Users/rmandhare/Desktop/Seleni
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
 		
 		
-		//Enter zip
+		//Enter the zip
 		driver.findElement(By.id("nzipcode")).sendKeys("75002");
 		
 		driver.findElement(By.xpath("//button[contains(text(),'Start Quote')]")).click();
